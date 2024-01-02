@@ -255,7 +255,6 @@ CMakeFiles/BattleshipGame.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/pstl/execution_defs.h \
   ../include/players/Player2.h \
   ../include/players/s23232067.h \
-  ../include/players/s23232017.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/ext/aligned_buffer.h \
@@ -263,12 +262,11 @@ CMakeFiles/BattleshipGame.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
   /usr/include/c++/11/bits/erase_if.h \
+  ../include/players/s23232017.h \
   ../include/players/PlayerHuman.h
 
 
 ../include/players/PlayerHuman.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -450,6 +448,12 @@ CMakeFiles/BattleshipGame.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
+../include/players/s23232017.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/c++/11/bits/allocator.h:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -489,12 +493,6 @@ CMakeFiles/BattleshipGame.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/c++/11/bits/allocator.h:
-
-../include/players/s23232017.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
@@ -785,3 +783,5 @@ CMakeFiles/BattleshipGame.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11/bits/stl_multiset.h:

@@ -1,0 +1,4 @@
+Dodatne razredne spremenljivke razreda PlayerStudent - namespace s23232017
+-zadnja koordinata na prejšnji potezi
+-množica koordinat, ki smo jih ciljali
+-bool, ali smo zadnjo koordinato zadeli ali zgresili, uporabimo markHit()

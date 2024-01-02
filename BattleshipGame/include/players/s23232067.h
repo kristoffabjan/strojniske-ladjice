@@ -6,6 +6,7 @@
 #include <utility>
 #include <vector>
 #include <iostream> 
+#include <set>
 
 namespace s23232067
 {
@@ -22,20 +23,19 @@ namespace s23232067
         void logOpponentMove(int x, int y) override;
         //bool s23232067::PlayerStudent::notTouch(int x, int y, int size, Orientation orientation, Board board);
         bool notTouch(int x, int y, int size, Orientation orientation, Board board);
+        // -zadnja koordinata na prejšnji potezi
+        std::pair<int, int> koordinata_zadnje_poteze;
+
+        // -množica koordinat, ki smo jih ciljali
+        std::set<std::pair<int, int>> nastreljane_pozicije;
+
+        bool zadnja_poteza_zadela = false;
 
     private:
         std::mt19937 gen_;
         std::uniform_int_distribution<int> dist_;
         Board board_;
 
-        // std::set<std::pair<int, int>> old_moves; //Set of old moves to be hit
-        // std::set<std::pair<int, int>> old_miss; //Set of old misses
-        // std::set<std::pair<int, int>> targetedCells; //Save targeted cells
-        // std::set<std::pair<int, int>> hitCells; //Hit cells
-        // std::set<std::pair<int, int>> miss; //Miss cells
-        // std::set<std::pair<int, int>> toBeHit; //To be hit queue
-        // std::pair<int, int> lastToBeHit; //Last TO BE HIT
-        // std::set<std::pair<int, int>> doNotGuess; //Do not guess
     };
 
 }
