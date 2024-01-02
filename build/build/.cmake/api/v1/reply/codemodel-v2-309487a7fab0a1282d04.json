@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BattleshipGame",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Battleship::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Battleship-Debug-bb62837d29578e266095.json",
+					"name" : "Battleship",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BattleshipCheckValidTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BattleshipCheckValidTest-Debug-5513011654285bc3be27.json",
+					"name" : "BattleshipCheckValidTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BattleshipGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BattleshipGame-Debug-61d8fe9980f1f4e6e696.json",
+					"name" : "BattleshipGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BattleshipGameTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BattleshipGameTest-Debug-a44a083a760547916d5c.json",
+					"name" : "BattleshipGameTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BattleshipValidSetupTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BattleshipValidSetupTest-Debug-2c39699bae914367c4f6.json",
+					"name" : "BattleshipValidSetupTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PlayBattleship::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PlayBattleship-Debug-85f4e90f84af41799263.json",
+					"name" : "PlayBattleship",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+		"source" : "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/BattleshipGame"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

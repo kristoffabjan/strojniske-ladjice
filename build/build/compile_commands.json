@@ -1,0 +1,248 @@
+[
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\Board.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\Board.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\Game.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\Player.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\Player2.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\Player2.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\PlayerHuman.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\PlayerHuman.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\RandomPlayer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\RandomPlayer.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\s23232017.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\s23232017.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\s23232067.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\s23232067.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Battleship.dir\\src\\players\\s232xxxxx.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "output": "CMakeFiles\\Battleship.dir\\src\\players\\s232xxxxx.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGame.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\main.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\main.cpp",
+  "output": "CMakeFiles\\BattleshipGame.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\PlayBattleship.dir\\src\\play.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\play.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\play.cpp",
+  "output": "CMakeFiles\\PlayBattleship.dir\\src\\play.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\Board.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\Board.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\Game.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\Player.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\Player2.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\Player2.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\PlayerHuman.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\PlayerHuman.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\RandomPlayer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\RandomPlayer.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\s23232017.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\s23232017.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\s23232067.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\s23232067.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\src\\players\\s232xxxxx.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\src\\players\\s232xxxxx.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipGameTest.dir\\tests\\setupBoard_test.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\tests\\setupBoard_test.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\tests\\setupBoard_test.cpp",
+  "output": "CMakeFiles\\BattleshipGameTest.dir\\tests\\setupBoard_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\Board.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\Board.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\Game.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\Player.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\Player2.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\Player2.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\PlayerHuman.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\PlayerHuman.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\RandomPlayer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\RandomPlayer.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\s23232017.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\s23232017.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\s23232067.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\s23232067.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\s232xxxxx.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\src\\players\\s232xxxxx.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipValidSetupTest.dir\\tests\\isSetupValid_test.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\tests\\isSetupValid_test.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\tests\\isSetupValid_test.cpp",
+  "output": "CMakeFiles\\BattleshipValidSetupTest.dir\\tests\\isSetupValid_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\Board.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Board.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\Board.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\Game.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\Game.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\Player.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\Player2.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\Player2.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\Player2.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\PlayerHuman.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\PlayerHuman.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\PlayerHuman.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\RandomPlayer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\RandomPlayer.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\RandomPlayer.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\s23232017.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232017.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\s23232017.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\s23232067.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s23232067.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\s23232067.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\s232xxxxx.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\src\\players\\s232xxxxx.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\src\\players\\s232xxxxx.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\BattleshipCheckValidTest.dir\\tests\\checkValid_test.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\tests\\checkValid_test.cpp",
+  "file": "C:\\Users\\HP\\Desktop\\PAPM\\PAPM23-Vaje\\Vaje\\Battleship\\BattleshipGame\\tests\\checkValid_test.cpp",
+  "output": "CMakeFiles\\BattleshipCheckValidTest.dir\\tests\\checkValid_test.cpp.obj"
+}
+]

@@ -1,0 +1,8 @@
+/app/build/CMakeFiles/Battleship.dir
+/app/build/CMakeFiles/BattleshipGame.dir
+/app/build/CMakeFiles/PlayBattleship.dir
+/app/build/CMakeFiles/BattleshipGameTest.dir
+/app/build/CMakeFiles/BattleshipValidSetupTest.dir
+/app/build/CMakeFiles/BattleshipCheckValidTest.dir
+/app/build/CMakeFiles/edit_cache.dir
+/app/build/CMakeFiles/rebuild_cache.dir

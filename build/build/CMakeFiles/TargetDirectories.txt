@@ -1,0 +1,8 @@
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/Battleship.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/BattleshipGame.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/PlayBattleship.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/BattleshipGameTest.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/BattleshipValidSetupTest.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/BattleshipCheckValidTest.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/PAPM/PAPM23-Vaje/Vaje/Battleship/build/CMakeFiles/rebuild_cache.dir
