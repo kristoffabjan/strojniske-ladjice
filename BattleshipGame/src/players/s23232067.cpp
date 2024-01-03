@@ -21,120 +21,76 @@ s23232067::PlayerStudent::PlayerStudent() : Player("32067")
     dist_ = std::uniform_int_distribution<int>(0, 9);
 }
 
+std::pair<int, int> generateRandomPosition()
+{
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dist_(0, 9); // Assuming the range is 0-9
+
+    int x = dist_(gen);
+    int y = dist_(gen);
+    std::pair<int, int> position = std::make_pair(x, y);
+
+    return position;
+}
+
+bool isWithinBoard(int x, int y)
+{
+    return x >= 0 && x <= 9 && y >= 0 && y <= 9;
+}
+
 // Funkcija, ki se izvede vsakič, ko je naša poteza. Vrniti moramo par števil x in y, ki predstavljata pozicijo na katero želimo streljati.
 std::pair<int, int> s23232067::PlayerStudent::getMove()
 {
-
-    std::cout << "Smo v Leja::getMove()" << std::endl;
-
-    // Ustvarimo prazno množico v katero bomo shranjevali pozicije na katere smo že streljali
-    // std::set<std::pair<int, int>> nastreljane_pozicije;
-
-    // Ustvarimo random par števil x in y, ki predstavljata prvo pozicijo na katero želimo streljati in jo ciljamo ter jo nato dodamo v množico že streljanih pozicij
-    int x = dist_(gen_);
-    int y = dist_(gen_);
-    std::pair<int, int> prva_pozicija = std::make_pair(x, y);
-    // nastreljane_pozicije.insert(prva_pozicija);
-    std::cout << "Size of set on getMove start: " << nastreljane_pozicije.size() << std::endl;
-    nastreljane_pozicije.insert(prva_pozicija);
-
-    for (const auto &pozicija : nastreljane_pozicije)
+    // 0: Water
+    // -1: Missed shot
+    // 1: Hit shot
+    // >1: Ship
+    if (!nastreljane_pozicije.empty()) // smo že streljali
     {
-        std::cout << "(" << pozicija.first << ", " << pozicija.second << ") ";
-    }
-    std::cout << std::endl;
-
-    std::cout << "Size of set on getMove first coordinate insert: " << nastreljane_pozicije.size() << std::endl;
-
-    int x_p = x;
-    int y_p = y;
-
-    /*Če smo zadeli, potem streljamo na pozicijo levo od prve pozicije, preverimo ali smo to pozicijo že streljali, če smo, se pomaknemo v desno, dokler ne najdemo pozicije,
-    ki je še nismo streljali*/
-    bool result_ = board_.markHit(x, y);
-    bool x_minus = false;
-    bool x_plus = false;
-    bool y_minus = false;
-    bool y_plus = false;
-
-    std::cout << result_ << std::endl;
-
-    if (result_ == true && x_minus == false && x_plus == false && y_minus == false && y_plus == false)
-    {
-        x_minus = true;
-        while (nastreljane_pozicije.find(std::make_pair(x, y)) != nastreljane_pozicije.end() && x > 0 && x_minus == true)
+        // std::cout << "The set nastreljane_pozicije is not empty." << std::endl;
+        std::pair<int, int> new_position;
+        if (wasLastHit == true)
         {
-            x--;
-            std::cout << "x--" << std::endl;
-            return std::make_pair(x, y);
-            std::cout << "po returnu" << std::endl;
-            result_ = board_.markHit(x, y);
-        }
+            std::cout << "In was last hit" << std::endl;
+            // If the last move was a hit, generate a position in the vicinity of the last move.
+            // This is a simple strategy that tries the cell to the right of the last hit.
+            // You might want to improve this to try other directions and handle the board edges.
+            int dx[] = {0, -1, 0, 1}; // Changes for the x coordinate for left, up, right, down
+            int dy[] = {-1, 0, 1, 0}; // Changes for the y coordinate for left, up, right, down
 
-        if (result_ == false && x_minus == true)
-        {
-            x_plus = true;
-            x_minus = false;
-            while (nastreljane_pozicije.find(std::make_pair(x, y)) != nastreljane_pozicije.end() && x < 9 && result_ == true && x_plus == true)
+            // Check neighbouring cells in the order left, up, right, down
+            // Check if the cell is within the board and if it has already been hit
+            int direction = 0; // Start with the left direction
+            while (!isWithinBoard(lastMove.first + dx[direction], lastMove.second + dy[direction]) || nastreljane_pozicije.count({lastMove.first + dx[direction], lastMove.second + dy[direction]}) > 0)
             {
-                x = x_p;
-                y = y_p;
-                x++;
-                std::cout << "x++" << std::endl;
-                return std::make_pair(x, y);
-                result_ = board_.markHit(x, y);
+                direction = (direction + 1) % 4; // Move to the next direction
             }
 
-            if (result_ == false && x_plus == true)
-            {
-                y_minus = true;
-                x_plus = false;
-                while (nastreljane_pozicije.find(std::make_pair(x, y)) != nastreljane_pozicije.end() && y > 0 && result_ == true && y_minus == true)
-                {
-                    x = x_p;
-                    y = y_p;
-                    y--;
-                    std::cout << "y--" << std::endl;
-                    return std::make_pair(x, y);
-                    result_ = board_.markHit(x, y);
-                }
-
-                if (result_ == false && y_minus == true)
-                {
-                    y_plus = true;
-                    y_minus = false;
-                    while (nastreljane_pozicije.find(std::make_pair(x, y)) != nastreljane_pozicije.end() && y < 9 && result_ == true && y_plus == true)
-                    {
-                        x = x_p;
-                        y = y_p;
-                        y++;
-                        std::cout << "y++" << std::endl;
-                        return std::make_pair(x, y);
-                        result_ = board_.markHit(x, y);
-                    }
-                }
-                else
-                {
-                    std::cout << "Napaka pri streljanju." << std::endl;
-                    // V tem primeru vrnemo random pozicijo, preverimo pa, da še ni bila uporabljena
-                    while (nastreljane_pozicije.find(std::make_pair(x, y)) != nastreljane_pozicije.end())
-                    {
-                        x = dist_(gen_);
-                        y = dist_(gen_);
-                        return std::make_pair(x, y);
-                        x_minus = false;
-                        x_plus = false;
-                        y_minus = false;
-                        y_plus = false;
-                        result_ = board_.markHit(x, y);
-                    }
-                }
-            }
+            new_position = std::make_pair(lastMove.first + dx[direction], lastMove.second + dy[direction]);
         }
+        else
+        {
+            std::cout << "last was missed" << std::endl;
+            // If the last move was not a hit, generate a random position.
+            // Ta del bi lahko optimizirali, ker če zadnji lokacija ni bila zadeta, ne pomeni nujno,
+            // da v bljižini ni nobene ladje.
+            new_position = generateRandomPosition();
+        }
+
+        nastreljane_pozicije.insert(new_position);
+        lastMove = new_position;
+        wasLastHit = board_.getCell(new_position.first, new_position.second) > 1;
+        return new_position;
     }
 
-    // Vrnemo par števil x in y, ki predstavljata pozicijo na katero želimo streljati
-    return std::make_pair(x, y);
+    // nismo še streljali
+    std::pair<int, int> random_position = generateRandomPosition();
+    std::cout << "The set nastreljane_pozicije is empty." << std::endl;
+    nastreljane_pozicije.insert(random_position);
+    wasLastHit = board_.getCell(random_position.first, random_position.second) > 1;
+    lastMove = random_position;
+    return random_position;
 }
 
 /*To funkcijo uporabimo za postavitev ladjic na polje. Vrniti moramo Board, ki predstavlja naše polje. Ladjice na polje postavljamo naključno, pri tem pa moramo
