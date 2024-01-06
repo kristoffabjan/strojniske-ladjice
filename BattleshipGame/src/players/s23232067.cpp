@@ -66,13 +66,12 @@ std::pair<int, int> s23232067::PlayerStudent::getMove()
             while (!isWithinBoard(lastMove.first + dx[direction], lastMove.second + dy[direction]) || nastreljane_pozicije.count({lastMove.first + dx[direction], lastMove.second + dy[direction]}) > 0)
             {
                 direction = (direction + 1) % 4; // Move to the next direction
-                counter++;
 
                 if (counter >= 3)
                 {
                     break;
                 }
-                
+                counter++;
             }
             counter = 0;
 

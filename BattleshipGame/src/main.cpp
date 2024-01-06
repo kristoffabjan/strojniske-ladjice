@@ -39,7 +39,7 @@ int main()
             Game game(players[i], players[j]);
 
             // Start the match for a fixed number of repetitions/games (default: 1)
-            game.startMatch(2);
+            game.startMatch(10);
 
             // Display the winner of this pair
             if (game.getWinner() != nullptr)
