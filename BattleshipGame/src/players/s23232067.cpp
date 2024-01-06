@@ -52,7 +52,7 @@ std::pair<int, int> s23232067::PlayerStudent::getMove()
         std::pair<int, int> new_position;
         if (wasLastHit == true)
         {
-            std::cout << "In was last hit" << std::endl;
+            // std::cout << "In was last hit" << std::endl;
             // If the last move was a hit, generate a position in the vicinity of the last move.
             // This is a simple strategy that tries the cell to the right of the last hit.
             // You might want to improve this to try other directions and handle the board edges.
@@ -62,16 +62,25 @@ std::pair<int, int> s23232067::PlayerStudent::getMove()
             // Check neighbouring cells in the order left, up, right, down
             // Check if the cell is within the board and if it has already been hit
             int direction = 0; // Start with the left direction
+            int counter = 0;
             while (!isWithinBoard(lastMove.first + dx[direction], lastMove.second + dy[direction]) || nastreljane_pozicije.count({lastMove.first + dx[direction], lastMove.second + dy[direction]}) > 0)
             {
                 direction = (direction + 1) % 4; // Move to the next direction
+                counter++;
+
+                if (counter >= 3)
+                {
+                    break;
+                }
+                
             }
+            counter = 0;
 
             new_position = std::make_pair(lastMove.first + dx[direction], lastMove.second + dy[direction]);
         }
         else
         {
-            std::cout << "last was missed" << std::endl;
+            // std::cout << "last was missed" << std::endl;
             // If the last move was not a hit, generate a random position.
             // Ta del bi lahko optimizirali, ker če zadnji lokacija ni bila zadeta, ne pomeni nujno,
             // da v bljižini ni nobene ladje.
