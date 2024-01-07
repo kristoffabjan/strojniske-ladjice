@@ -28,6 +28,7 @@ namespace s23232067
 
         // -množica koordinat, ki smo jih ciljali
         std::set<std::pair<int, int>> nastreljane_pozicije;
+        std::set<std::pair<int, int>> targeted_positions;
         std::pair<int, int> lastMove;
         bool wasLastHit;
         std::vector<std::pair<int, int>> hitPositions;

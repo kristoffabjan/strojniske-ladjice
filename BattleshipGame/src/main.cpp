@@ -10,6 +10,7 @@
 #include "players/RandomPlayer.h"
 #include "players/Player2.h"
 #include "players/s23232067.h"
+#include "players/Kristof.h"
 #include "players/s23232017.h"
 #include "players/PlayerHuman.h"
 
@@ -23,6 +24,7 @@ int main()
     //players.push_back(new RandomPlayer());
     //players.push_back(new Player2("Pl2"));
     players.push_back(new s23232067::PlayerStudent());
+    //players.push_back(new Kristof::PlayerStudent());
     players.push_back(new s23232017::PlayerStudent());
     // Adding more players here ...
 
@@ -39,7 +41,7 @@ int main()
             Game game(players[i], players[j]);
 
             // Start the match for a fixed number of repetitions/games (default: 1)
-            game.startMatch(10);
+            game.startMatch(2);
 
             // Display the winner of this pair
             if (game.getWinner() != nullptr)

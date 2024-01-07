@@ -1,4 +1,68 @@
-Dodatne razredne spremenljivke razreda PlayerStudent - namespace s23232017
--zadnja koordinata na prejšnji potezi
--množica koordinat, ki smo jih ciljali
--bool, ali smo zadnjo koordinato zadeli ali zgresili, uporabimo markHit()
+
+Stanja
+1. randomPickState
+2. orientationDiscoverState
+3. shipTraversingState
+
+Spremenljivke
+1. pair<int, int> firstHitPositionOnLastShip
+2. string currentShipOrientations (none, horizontal, vertical)
+3. int currentShipSize (min 2, max 5)
+4. bool wasLastHit - ali smo zadeli zadnji strel
+5. set pair<int, int> nastreljane_pozicije
+6. bool topEndHit 
+7. bool bottomEndHit 
+8. bool leftEndHit 
+9. bool rightEndHit 
+
+
+- Začnemo v stanju 1.
+- ko prvič zadanemo nekaj, 
+    - nastavimo stanje 2.
+    -shranimo spr. 1. in povečamo za 1 spr 3.
+- če ne zadanemo nič in smo v stanju 1. ponavljamo random strele
+
+-če smo prejšnjega zadeli(wasLastHit = true)
+    -(moramo biti v stanju 2. ali 3.)
+    -stanje 2.
+        -izberemo enega od sosednjih valid polij
+        -če smo zadeli
+            -wasLastHit = true
+            -dodaj nastreljane_pozicije
+            - spr 3.++
+            -primerjamo koordinate spr. 1 in določimo, orientacijo ladje
+            -premik v stanje 3.    
+        -če smo zgrešili (dodatno - mogoče že vemo, orientacijo ladje)
+            -ostani v stanju 2.
+            -ohrni sprem 1.
+            -spr 4. = false
+            - posodobi spr. 5.
+    - stanje 3.
+        -ugotovimo usmerjenost ladje
+        -vertikalno
+            -izberemo celico y+1, če je znotraj range-a in ni bla streljana
+                -izberemo pozicijo spr. 1., s koordinato y-1
+                -če smo zadeli
+                    -ohranimo stanje
+                    -wasLastHit = true
+                    -spr. 3. ++
+                    -dodaj pozicijo med streljane
+                -če smo zgrešili
+                    -ohranimo stanje
+                    -topEndHit true
+                    -wasLastHit = false
+                    -dodaj pozicijo med streljane
+            -else
+                -izberemo pozicijo spr. 1., s koordinato y-1
+                -če smo zadeli
+                    -ohranimo stanje
+                    -wasLastHit = true
+                    -spr. 3. ++
+                    -dodaj pozicijo med streljane
+                -else zgrešili
+                    -
+
+-če smo prejšnjo zgrešili 
+    -stanje 2.
+    -stanje 3.
+
